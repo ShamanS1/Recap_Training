@@ -23,15 +23,14 @@ describe("ProductFormComponent", () => {
   it("should emit a product when the form is submitted with valid data", () => {
     const formBuilder: FormBuilder = TestBed.inject(FormBuilder);
     const product = {
-      "id": 1,
-      "productName": "Smartphone",
-      "quantity": 500,
-      "productionDate": "2023-09-01",
-      "status": "In Assembly",
-      "destination": "Retailer A"
+      id: 1,
+      productName: "Smartphone",
+      quantity: 500,
+      productionDate: "2023-09-01",
+      status: "In Assembly",
+      destination: "Retailer A"
     };
 
-    // Set up the form with valid data
     component.productForm = formBuilder.group({
       id: 1,
       productName: [product.productName],
@@ -42,7 +41,6 @@ describe("ProductFormComponent", () => {
     });
 
     spyOn(component.addProduct, "emit");
-
     component.onSubmit();
 
     expect(component.addProduct.emit).toHaveBeenCalledWith(product);
