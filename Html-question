@@ -1,0 +1,132 @@
+MS1_W1_D2_User Information Form – HTML
+Type: Programming
+Skill: HTML
+HTML
+Forms
+Medium
+20 min
+Create a simple HTML page that includes basic tags and a form to collect user information.
+
+ 
+
+The page should have a title "User Information Form."
+
+ 
+
+Use appropriate HTML tags to structure the content of the page, including headings, paragraphs, and lists.
+
+ 
+
+The form should include the following input fields:
+
+ 
+
+First Name (text input)
+
+Last Name (text input)
+
+Email Address (email input)
+
+Date of Birth (date input)
+
+Gender (radio buttons for Male and Female)
+
+Country (select dropdown with at least three country options)
+
+Interests (checkboxes for at least three interest options)
+
+Add a "Submit" button to the form.
+
+ 
+
+·        Validate the form to ensure that all required fields are filled out before submission.
+
+ 
+
+·        On form submission, display the collected information on the same page below the form, using
+
+appropriate HTML tags and formatting.
+
+ 
+
+·        Ensure that the HTML page is well-structured and user-friendly, with clear instructions for filling
+
+out the form. Use appropriate labels for input fields and provide meaningful placeholders or
+
+default values where applicable.
+
+ 
+
+Bonus: Implement client-side validation for email format and date of birth to ensure they are entered correctly.
+
+
+
+Sample Input:
+
+
+
+Title: User Information Form
+
+Form Input Fields:
+
+First Name: [John] [Text input]
+
+Last Name: [Doe] [Text input]
+
+Email Address: [johndoe@example.com] [Email input]
+
+Date of Birth: [1990-05-20] [Date input]
+
+Gender:
+
+Male [Radio button]
+
+Female [Radio button]
+
+Country: [Select dropdown]
+
+Option 1
+
+           Option 2
+
+Option 3
+
+Interests:
+
+Interest 1 [Checkbox]
+
+           Interest 2 [Checkbox]
+
+           Interest 3 [Checkbox]
+
+[Submit button]
+
+
+
+Sample Output:
+
+
+
+User Information:
+
+First Name: John
+
+Last Name: Doe
+
+Email Address: johndoe@example.com
+
+Date of Birth: 1990-05-20
+
+Gender: Female
+
+Country: Option 2
+
+ 
+
+Interests:
+
+Interest 1
+
+Interest 3
+
+
