@@ -1,0 +1,30 @@
+---
+You are required to create an HTML5 form with JavaScript validation for username and password.
+
+Tasks:
+
+1. HTML Form: Create an HTML5 form with two input fields: 
+• Username: A text input field for the user's name.
+• Password: A password input field for the user's password.
+
+2. Validation: Implement JavaScript validation for the form: 
+• The Username field should not be empty.
+• The Password field should be at least 8 characters long.
+
+3. Submission: When the form is submitted:
+• If the validations are correct, forward the user to a welcome page.
+• If the validations are not correct, display a message "Invalid credentials" and prevent the form from being submitted.
+
+Requirements:
+
+• The form should have two input fields: Username and Password.
+• The form should be validated using JavaScript when submitted.
+• The Username field should not be empty.
+• The Password field should be at least 8 characters long.
+• If the validations are correct, the user should be forwarded to a welcome page.
+• If the validations are not correct, a message "Invalid credentials" should be displayed, and the form should not be submitted.
+
+Testing & Submitting your code:
+
+Step 1: Click on the WeCP Projects Button. 
+Step 2: Click on the Test & Submit app button to submit your code for evaluation. You will be given a congratulations message if your code is working perfectly.
