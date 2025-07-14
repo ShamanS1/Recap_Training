@@ -1,0 +1,16 @@
+---
+Task description:
+
+Create a function in nodejs which will add two numbers and return the sum.
+
+You need to ensure that the function will check for input types and it will throw an error if it is not a number. It should support whole numbers, floating point numbers, negatives and positives.
+
+You need to complete the code in the file sum.js.
+
+
+Note:
+1. You need to modify only sum.js 
+2. Ensure that the structure and datatype of the components are followed as specified in the comments to ensure that the code is evaluated correctly.
+3. Use Test App & Submit option often so you will be guided by test error messages.
+4. When you delete or edit something you shouldn’t have, test messages will give an error accordingly
+5. You will receive a congratulations message upon successful completion of the task.
