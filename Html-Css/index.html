@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form – HTML</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./index.css">
+<body style="background-color: #f0f0f0;">
+    <h1>User Information Form – HTML</h1>
+    <form id="userForm">
+        <div class="form-group">
+            <label for="firstName">First Name:</label><br>
+          <!-- //create input with id="firstName" name="firstName" -->
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name:</label><br>
+            <!-- //create input with id="lastName" name="lastName" -->
+        </div>
+
+        <div class="form-group">
+            <label for="emailAddress">Email Address:</label><br>
+            <!-- //create input with id="emailAddress" name="emailAddress" -->
+        </div>
+
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth:</label><br>
+           <!-- //create input with id="dateOfBirth" name="dateOfBirth" -->
+        </div>
+
+        <div class="form-group">
+                       <!-- //create radio with id="gender" name="gender" -->
+
+        </div>
+
+        <div class="form-group">
+                                  <!-- //create select with id="country" name="country" -->
+            <label for="country">Country:</label>
+        
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="USA">USA</option>
+       
+        </div>
+
+        <div class="form-group">
+            <label>Interests:</label><br>
+            //create three checkbox with id and name interest1,2,3
+        </div>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <div id="summary" class="success" style="margin-top: 20px;"></div>
+
+ 
+</body>
+<script  src="./index.js" ></script>
+</html>
+ 
