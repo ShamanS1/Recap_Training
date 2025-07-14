@@ -1,0 +1,28 @@
+---
+
+You need to create a TypeScript class for a Book entity.
+
+Tasks:
+
+1. Book Class: Create a Book class with the following fields:
+            bookID: A unique identifier for the book.
+            title: The title of the book.
+            author: The author of the book.
+
+2. Constructor: Write a constructor for the Book class that takes bookID, title, and author as parameters and initializes them.
+
+3. Display Method: Write a method displayDetails() that logs the book details to the console in the format: "Book ID: [bookID], Title: [title], Author: [author]".
+
+Object Creation and Method Call:
+1. Create an object of the Book class, initializing it with some sample values using the constructor.
+2. Call the displayDetails() method using the created object.
+
+Requirements:
+1. The Book class should have fields like bookID, title and author.
+2. The Book class should have a constructor that initializes all fields of the class.
+3. The Book class should have a method displayDetails() to display Book details.
+
+Testing & Submitting your code:
+
+Step 1: Click on the WeCP Projects Button. 
+Step 2: Click on the Test & Submit app button to submit your code for evaluation. You will be given a congratulations message if your code is working perfectly.
